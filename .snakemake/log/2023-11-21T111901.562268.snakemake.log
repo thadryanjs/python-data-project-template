@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count
+------  -------
+step00        1
+total         1
+
+Select jobs to execute...
+
+[Tue Nov 21 11:19:01 2023]
+rule step00:
+    jobid: 0
+    reason: Rules with neither input nor output files are always executed.
+    resources: tmpdir=/tmp
+
+[Tue Nov 21 11:19:02 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-11-21T111901.562268.snakemake.log

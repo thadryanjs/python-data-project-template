@@ -1,0 +1,2 @@
+SyntaxError in file /home/thadryan/Documents/Vault/Projects/ActiveProjects/Tests/python/project-template/Snakefile, line 2:
+Unexpected keyword python in rule definition (Snakefile, line 2)

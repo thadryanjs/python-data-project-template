@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count
+--------  -------
+mod_zero        1
+total           1
+
+Select jobs to execute...
+
+[Mon Nov 20 17:27:49 2023]
+rule mod_zero:
+    jobid: 0
+    reason: Rules with neither input nor output files are always executed.
+    resources: tmpdir=/tmp
+
+[Mon Nov 20 17:27:50 2023]
+Error in rule mod_zero:
+    jobid: 0
+    shell:
+        python src/step0/script.py
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-11-20T172749.543664.snakemake.log
